@@ -3,7 +3,7 @@ priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
 match priority:
-    case "hight":
+    case "high":
         if time_bound == "yes":
             print(f"Task '{task}' is a high priority and time-bound. Schedule it immediately.")
         else:

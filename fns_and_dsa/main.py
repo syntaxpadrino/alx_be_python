@@ -21,10 +21,10 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = input("Enter item to add: ").strip()
+            item = input("Enter item to add: ")
             add_item(shopping_list, item)
         elif choice == '2':
-            item = input("Enter item to remove: ").strip()
+            item = input("Enter item to remove: ")
             remove_item(shopping_list, item)
         elif choice == '3':
             view_list(shopping_list)

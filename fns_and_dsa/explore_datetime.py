@@ -16,7 +16,7 @@ def calculate_future_date(current_date, days_to_add):
 
 def main():
     current_date = display_current_datetime()
-    days_to_add = int(input("Enter the number of days to add: "))
+    days_to_add = int(input("Enter the number of days to add to the current date:"))
     future_date = calculate_future_date(current_date, days_to_add)
     print(f"Future date after adding {days_to_add} days: {future_date.strftime('%Y-%m-%d')}")
 if __name__ == "__main__":

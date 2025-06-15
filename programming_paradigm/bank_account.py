@@ -22,4 +22,4 @@ class BankAccount:
             return False  # Return False to indicate the withdrawal was unsuccessful due to invalid input
     def display_balance(self):
         """Display the current account balance."""
-        return f"Current balance: ${self._account_balance:.2f}"
+        return f"Current Balance: ${self._account_balance:.2f}"

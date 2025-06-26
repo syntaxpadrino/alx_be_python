@@ -4,7 +4,7 @@ class Book:
     def __init__(self, title, author):
         self.title = title
         self.author = author
-        self._is_checked_out = False  # Private attribute
+        self._is_checked_out = False  #Its a single underscore so..
 
     def check_out(self):
         self._is_checked_out = True
@@ -18,7 +18,7 @@ class Book:
 
 class Library:
     def __init__(self):
-        self._books = []  # <-- Required exact line to satisfy the checker
+        self._books = [] 
 
     def add_book(self, book):
         self._books.append(book)
